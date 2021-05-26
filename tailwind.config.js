@@ -62,7 +62,9 @@ module.exports = {
       md: '0.375rem',
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
   corePlugins: {
     fontSize: false,
     fontFamily: false,
